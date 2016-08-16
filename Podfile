@@ -6,8 +6,13 @@ target 'WhereToEat_Swift' do
   use_frameworks!
 
   # Pods for WhereToEat_Swift
+
     pod 'Alamofire', '~> 3.4.1'
     pod 'MBProgressHUD', '~> 0.9.0'
+    pod 'SQLite.swift', '~> 0.10.1'
+    pod 'Cartography', '~> 0.6.0'
+    pod 'LTMorphingLabel', '~> 0.2.1'
+    pod 'RAMAnimatedTabBarController', '~> 1.5.3'
 
   target 'WhereToEat_SwiftTests' do
     inherit! :search_paths
