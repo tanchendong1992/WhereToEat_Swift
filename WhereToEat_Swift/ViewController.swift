@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -18,6 +19,10 @@ class ViewController: UIViewController {
         Alamofire.request(.GET, urlString, parameters: nil, encoding: .JSON, headers: nil).responseJSON { (JSON) in
             print(JSON)
         }
+        
+        
+        
+        
         
         
     }

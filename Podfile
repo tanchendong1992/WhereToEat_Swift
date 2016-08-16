@@ -13,6 +13,7 @@ target 'WhereToEat_Swift' do
     pod 'Cartography', '~> 0.6.0'
     pod 'LTMorphingLabel', '~> 0.2.1'
     pod 'RAMAnimatedTabBarController', '~> 1.5.3'
+    pod 'SnapKit', '~> 0.30.0.beta2'
 
   target 'WhereToEat_SwiftTests' do
     inherit! :search_paths
