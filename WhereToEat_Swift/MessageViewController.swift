@@ -12,6 +12,5 @@ class MessageViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.titleLabel?.text = "消息"
-        self.view.backgroundColor = UIColor.purpleColor()
     }
 }

@@ -12,6 +12,5 @@ class PersonalViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.titleLabel?.text = "个人"
-        self.view.backgroundColor = UIColor.greenColor()
     }
 }

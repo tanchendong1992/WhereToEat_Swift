@@ -66,24 +66,24 @@ class BaseViewController: UIViewController {
     }
     
     func createTopView(){
-        let topV : UIView = UIView.init(frame: CGRectMake(0, 20, deviceWidth, topBarHeight))
-        self.view.addSubview(topV)
-        
-        let topBgV : UIView = UIView.init(frame: CGRectMake(0, -20, deviceWidth, topBarHeight + 20))
-        topBgV.backgroundColor = UIColor.init(red: 253/255.0, green: 145/255.0, blue: 30/255.0, alpha: 1)
-        topBgV.tag = 10010
-        topV.addSubview(topBgV)
-        
-        let titleLab : UILabel = UILabel.init(frame: CGRectMake(44, (topV.height - topBarHeight) / 2.0, deviceWidth - 88, topBarHeight))
-        titleLab.textAlignment = .Center
-        titleLab.font = UIFont.systemFontOfSize(17)
-        titleLab.backgroundColor = UIColor.clearColor()
-        titleLab.textColor = UIColor.redColor()
-        titleLab.text = "md"
-        topV.addSubview(titleLab)
-        
-        self.titleLabel = titleLab
-        self.topView = topV
+        if self.topView == nil {
+            let topV : UIView = UIView.init(frame: CGRectMake(0, 20, deviceWidth, topBarHeight))
+            self.view.addSubview(topV)
+            
+            let topBgV : UIView = UIView.init(frame: CGRectMake(0, -20, deviceWidth, topBarHeight + 20))
+            topBgV.backgroundColor = UIColor.init(red: 253/255.0, green: 145/255.0, blue: 30/255.0, alpha: 1)
+            topBgV.tag = 10010
+            topV.addSubview(topBgV)
+            
+            let titleLab : UILabel = UILabel.init(frame: CGRectMake(44, (topV.height - topBarHeight) / 2.0, deviceWidth - 88, topBarHeight))
+            titleLab.textAlignment = .Center
+            titleLab.font = UIFont.systemFontOfSize(17)
+            titleLab.backgroundColor = UIColor.clearColor()
+            titleLab.textColor = UIColor.redColor()
+            topV.addSubview(titleLab)
+            self.titleLabel = titleLab
+            self.topView = topV
+        }
     }
     
     func addBackBtn() {

@@ -12,6 +12,5 @@ class HomePageViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.titleLabel?.text = "首页"
-        self.view.backgroundColor = UIColor.redColor()
     }
 }

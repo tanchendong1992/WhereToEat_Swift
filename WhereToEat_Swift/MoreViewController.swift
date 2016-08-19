@@ -12,6 +12,5 @@ class MoreViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.titleLabel?.text = "更多"
-        self.view.backgroundColor = UIColor.yellowColor()
     }
 }

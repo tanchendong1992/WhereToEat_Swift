@@ -12,6 +12,5 @@ class FoundViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.titleLabel?.text = "发现"
-        self.view.backgroundColor = UIColor.blueColor()
     }
 }

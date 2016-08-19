@@ -15,7 +15,7 @@ class TabBarViewController: BaseViewController {
     var selectedIndex : NSInteger?
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+//        super.viewDidLoad()
         self.createTabBarView()
         self.creatTabBarViewController()
         self.setSelectedIndex(0)

@@ -23,7 +23,7 @@
 		B2BB0F4C1D62A3B40033D7F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BB0F4A1D62A3B40033D7F8 /* LaunchScreen.storyboard */; };
 		B2BB0F571D62A3B40033D7F8 /* WhereToEat_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB0F561D62A3B40033D7F8 /* WhereToEat_SwiftTests.swift */; };
 		B2BB0F621D62A3B40033D7F8 /* WhereToEat_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB0F611D62A3B40033D7F8 /* WhereToEat_SwiftUITests.swift */; };
-		B2BB0F751D62E7B30033D7F8 /* defic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB0F741D62E7B30033D7F8 /* defic.swift */; };
+		B2BB0F751D62E7B30033D7F8 /* definc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB0F741D62E7B30033D7F8 /* definc.swift */; };
 		B2BB0F791D6314800033D7F8 /* UIView+SetRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB0F781D6314800033D7F8 /* UIView+SetRect.swift */; };
 		FEA99ADDF04BA2415E05BE06 /* Pods_WhereToEat_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F9E3A0B132787DF5052111 /* Pods_WhereToEat_SwiftTests.framework */; };
 /* End PBXBuildFile section */
@@ -74,7 +74,7 @@
 		B2BB0F5D1D62A3B40033D7F8 /* WhereToEat_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereToEat_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2BB0F611D62A3B40033D7F8 /* WhereToEat_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereToEat_SwiftUITests.swift; sourceTree = "<group>"; };
 		B2BB0F631D62A3B40033D7F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2BB0F741D62E7B30033D7F8 /* defic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = defic.swift; sourceTree = "<group>"; };
+		B2BB0F741D62E7B30033D7F8 /* definc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = definc.swift; sourceTree = "<group>"; };
 		B2BB0F781D6314800033D7F8 /* UIView+SetRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+SetRect.swift"; path = "../../UIView+SetRect.swift"; sourceTree = "<group>"; };
 		B61F88612D69A6D65D357FA0 /* Pods-WhereToEat_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereToEat_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhereToEat_SwiftUITests/Pods-WhereToEat_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -198,7 +198,7 @@
 			children = (
 				B2231D591D66E2E800D906C9 /* category */,
 				B2231D521D66E2AD00D906C9 /* controller */,
-				B2BB0F741D62E7B30033D7F8 /* defic.swift */,
+				B2BB0F741D62E7B30033D7F8 /* definc.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -481,7 +481,7 @@
 				B2231D4B1D66AC5200D906C9 /* MoreViewController.swift in Sources */,
 				B2231D471D66AC2600D906C9 /* HomePageViewController.swift in Sources */,
 				B2231D581D66E2AD00D906C9 /* TabBarViewController.swift in Sources */,
-				B2BB0F751D62E7B30033D7F8 /* defic.swift in Sources */,
+				B2BB0F751D62E7B30033D7F8 /* definc.swift in Sources */,
 				B2231D571D66E2AD00D906C9 /* RootNavigationController.swift in Sources */,
 				B2231D4D1D66AC6500D906C9 /* MessageViewController.swift in Sources */,
 				B2BB0F421D62A3B40033D7F8 /* AppDelegate.swift in Sources */,
